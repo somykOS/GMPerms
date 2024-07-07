@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "gmperms",
+	"version": "${version}",
+	"name": "GameMode Permissions",
+	"description": "This mod helps manage players' gamemode change permissions.",
+	"authors": [
+		"somyk"
+	],
+	"contact": {
+		"sources": "https://github.com/somykOS/GMPerms"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.somyk.gmperms.GMPerms"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
